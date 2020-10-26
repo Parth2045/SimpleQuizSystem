@@ -9,10 +9,15 @@
 2. then do DB configuration in .env file
 
 DB_CONNECTION=mysql
+
 DB_HOST=127.0.0.1
+
 DB_PORT=3306
+
 DB_DATABASE=your_db
+
 DB_USERNAME=root
+
 DB_PASSWORD=
 
 3. Run the migrations
