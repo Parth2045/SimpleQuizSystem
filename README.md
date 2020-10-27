@@ -30,7 +30,7 @@ DB_PASSWORD=
 
     E. php artisan db:seed --class=UserSeeder
 
-4. After successfully running of those commands(A, B, C) run :
+4. After successfully running of above commands, run :
 
     F. php artisan serve
     
