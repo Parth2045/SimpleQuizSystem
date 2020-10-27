@@ -5,6 +5,8 @@
     A. composer install
 
     B. npm install
+    
+    C. php artisan key:generate
 
 2. then do DB configuration in .env file
 
@@ -22,10 +24,14 @@ DB_PASSWORD=
 
 3. Run the migrations
 
-    C. php artisan migrate
+    D. php artisan migrate
+
+4. Run the seeder class for admin
+
+    E. php artisan db:seed --class=UserSeeder
 
 4. After successfully running of those commands(A, B, C) run :
 
-    D. php artisan serve
+    F. php artisan serve
     
 
