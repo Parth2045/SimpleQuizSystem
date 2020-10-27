@@ -26,8 +26,12 @@ DB_PASSWORD=
 
     D. php artisan migrate
 
+4. Run the seeder class for admin
+
+    E. php artisan db:seed --class=UserSeeder
+
 4. After successfully running of those commands(A, B, C) run :
 
-    E. php artisan serve
+    F. php artisan serve
     
 
